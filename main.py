@@ -44,5 +44,5 @@ class Car:
         return f"{self.model} ishga tushdi!"
 car1 = Car("Cobalt")
 car2 = Car("Malibu")
-print(car1.start())
-print(car2.start())
+print(car1.start)
+print(car2.start)
