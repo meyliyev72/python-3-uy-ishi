@@ -36,13 +36,13 @@ class metob:
 math =metob(3)
 print(f"Eski baho: {math.baho}")
 math.metod(5)
-# 5.Bir nechta obyekt yaratib, ularning metodlarini chaqirish.
+# 5
 class Car:
     def __init__(self, model):
         self.model = model
     def start(self):
-        print(f"{self.model} ishga tushdi!")
+        return f"{self.model} ishga tushdi!"
 car1 = Car("Cobalt")
 car2 = Car("Malibu")
-car1.start()
-car2.start()
+print(car1.start())
+print(car2.start())
